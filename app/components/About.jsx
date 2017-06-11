@@ -15,8 +15,19 @@ var About = (props) => {
     debugger;
     return(
       <div>
-      <h3>About </h3>
-      <p>Welcome to the About Page !!</p>
+      <h1 className="text-centered">About </h1>
+      <p>This is a weather Application built on React. !!</p>
+      <p>Here are some tools I used.</p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a> - This was the javascript framework used.
+
+        </li>
+        <li>
+            <a href="http://openWeatherMap.org">openWeatherMap</a> - I used Open Weather Map to search for
+            weather data by city name.
+        </li>
+      </ul>
     </div>
     );
 };
