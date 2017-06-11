@@ -12,7 +12,7 @@ var React = require('react');
 // );
 
 var About = (props) => {
-    debugger;
+    // debugger;
     return(
       <div>
       <h1 className="text-centered">About </h1>
